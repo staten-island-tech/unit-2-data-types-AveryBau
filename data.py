@@ -17,18 +17,72 @@ z = y[0]
 print(y)
 print(z) """
 
-day_of_week = input("what day is it?")
+""" day_of_week = input("what day is it?")
 if day_of_week == "Friday":
     print("correct")
 else:
-    print("incorrect")
+    print("incorrect") """
 
-sentence = input("please enter a sentence")
-if sentence == input:
-    print("correct")
+""" sentence = input("please enter a sentence")
+if sentence == (input):
+    print(input)
+    for i in input:
+        print(i) """
     
 
-
-
-x = "test"
+""" x = "test"
 print(f"hello {x}")
+
+temp = 75
+if temp > 68:
+    print('warm')
+elif temp == 68:
+    print('perfect')
+else:
+    print('cold') """
+
+""" name = ALice
+age = 30 
+print(f"my name is {name} and I am {age} years old") """
+
+""" number = int(input("give me number"))
+if number >= 21:
+    print("can vote and gamble")
+elif(number >= 18):
+    print("can vote but not gamble")
+else:
+    print("have a juice box kid")
+
+#18 and 25
+#3, 5,
+#if number isFactor of 18 and if number isFactor of 25 """
+
+""" temp = 55
+if (temp > 40 and temp < 60):
+    print("light jacket needed")
+elif (temp < 20 or temp > 90):
+    print("extreme") """
+
+""" x = True
+print(not(x))
+
+User:{}
+if not User:
+    print("please log in")
+
+def is_animal_allowed(is_herbivore, weight, is_predator):
+    if(is_herbivore or weight < 50) and not is_predator:
+        return "The animal is allowed in the open area."
+    else:
+        return "The animal is not allowed in the open area." """
+    
+""" def discount(isMember, age, isResident):
+    if(isMember or isResident): 
+        print("discount granted")
+age = int(input("enter age"))
+if (age < 12 or age > 65):
+    print("discount granted")
+else: 
+    print("NO DISCOUNT FOR YOU")
+ """
+
