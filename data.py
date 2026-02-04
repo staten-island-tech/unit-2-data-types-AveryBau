@@ -86,3 +86,6 @@ else:
     print("NO DISCOUNT FOR YOU")
  """
 
+temp = 75
+
+
