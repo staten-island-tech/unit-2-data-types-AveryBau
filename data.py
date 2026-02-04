@@ -86,6 +86,45 @@ else:
     print("NO DISCOUNT FOR YOU")
  """
 
-temp = 75
+""" animals = [
+    {"name": "Leo", "species": "Lion", "weight": 420}
+] """
+
+""" bill = float(input("enter bill"))
+tip = float("how much would you like to tip?")
+if bill > 0:
+    print(tip)
+if tip >= 0:
+    print(bill*tip+bill)
+
+sentence = input() """
+
+""" 
+sentence = input("please type a sentence")
+if sentence """
+
+""" number = int(input("give me a number"))
+if number == input / 2:
+    print("even")
+else:
+    print("odd") """
 
 
+""" x = "this is a thing"
+y = x.count("")
+print(y) """
+
+
+bill = int(input("what bill"))
+service = input("good, bad, okay, great")
+def getTip(bill, service):
+       if bill >0:
+        print(service)
+        if service == ("good"):
+            print(.20)
+        if service == ("bad"):
+            print(0)
+        if service == ("okay"):
+            print(.15)
+        if service == ("great"):
+            print(.25)
