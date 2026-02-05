@@ -103,8 +103,8 @@ sentence = input() """
 sentence = input("please type a sentence")
 if sentence """
 
-""" number = int(input("give me a number"))
-if number == input / 2:
+""" number = int(input("type a number"))
+if number % 2 == 0:
     print("even")
 else:
     print("odd") """
@@ -112,19 +112,20 @@ else:
 
 """ x = "this is a thing"
 y = x.count("")
-print(y) """
+print(y)
+ """
 
-
-bill = int(input("what bill"))
+""" bill = int(input("what bill"))
 service = input("good, bad, okay, great")
 def getTip(bill, service):
        if bill >0:
         print(service)
-        if service == ("good"):
-            print(.20)
         if service == ("bad"):
             print(0)
+        if service == ("good"):
+            print(.20)
         if service == ("okay"):
             print(.15)
         if service == ("great"):
-            print(.25)
+            print(.25) """
+
