@@ -1,7 +1,3 @@
-""" import turtle
-from turtle import *
-t = Turtle()
- """
 """ x = 3 
 y = float(3)
 print(x,y) """
@@ -91,8 +87,13 @@ else:
 y = x.count("")
 print(y) """
 
+""" STRING CHALLENGE """
+""" sentence = str(input("type a sentence"))
+y = sentence.split( )
+print(len(y)) """
 
 
+""" TIP CALCULATOR """
 """ bill = float(input("enter bill"))
 tip = float("how much would you like to tip?")
 if bill > 0:
