@@ -86,9 +86,12 @@ else:
     print("NO DISCOUNT FOR YOU")
  """
 
-""" animals = [
-    {"name": "Leo", "species": "Lion", "weight": 420}
-] """
+
+""" x = "this is a thing"
+y = x.count("")
+print(y) """
+
+
 
 """ bill = float(input("enter bill"))
 tip = float("how much would you like to tip?")
@@ -99,9 +102,6 @@ if tip >= 0:
 
 sentence = input() """
 
-""" 
-sentence = input("please type a sentence")
-if sentence """
 
 """ number = int(input("type a number"))
 if number % 2 == 0:
@@ -109,11 +109,6 @@ if number % 2 == 0:
 else:
     print("odd") """
 
-
-""" x = "this is a thing"
-y = x.count("")
-print(y)
- """
 
 """ bill = int(input("what bill"))
 service = input("good, bad, okay, great")
@@ -142,13 +137,13 @@ for i in range(2, number):
     if number % i == 0:
         print(i) """
 
-GCF = []
-number = int(input("type a number"))
+
+""" number = int(input("type a number"))
 numero = int(input("type another number"))
-last = GCF[-1]
-def GCF(number, numero):
+def IDK(number, numero):
+    GCF = 0
     for i in range(2, numero):
         if number % i + numero % i == 0:
-            GCF.append(i)
-            print("Last value")
-GCF(number, numero)
+            GCF = i
+    print(GCF)
+IDK(number, numero) """
