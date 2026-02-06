@@ -127,5 +127,28 @@ def getTip(bill, service):
         if service == ("okay"):
             print(.15)
         if service == ("great"):
-            print(.25) """
+            print(.25) 
+getTip(bill,service) """
 
+""" factors=[]
+number = int(input("type a number"))
+for i in range(2, number):
+    if number % i == 0:
+        factors.append(i)
+        print(factors) """
+
+""" number = int(input('type a number'))
+for i in range(2, number):
+    if number % i == 0:
+        print(i) """
+
+GCF = []
+number = int(input("type a number"))
+numero = int(input("type another number"))
+last = GCF[-1]
+def GCF(number, numero):
+    for i in range(2, numero):
+        if number % i + numero % i == 0:
+            GCF.append(i)
+            print("Last value")
+GCF(number, numero)
